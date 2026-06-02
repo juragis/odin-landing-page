@@ -26,7 +26,6 @@ footer {
     display: flex;
     flex-direction: column;
     width: 90vw;
-    ;
     height: 100vh;
     justify-content: center;
 }
@@ -100,6 +99,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
 }
 
 .one-container button{
@@ -141,6 +141,10 @@ footer {
     align-items: center;
 }
 
+#h2-container{
+    padding: 5px;
+}
+
 .multiple-img-container {
    
     display: flex;
@@ -172,6 +176,34 @@ footer {
     text-align: center;
 }
 
+#three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#three p{
+    width: 60%;
+}
+
+.inspirational-quote{
+    font-size: 30px;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+#three .inspirational-quote{
+    font-weight: 300;
+}
+
+
+.quote-author{
+    font-weight: 900;
+    align-self: end;
+    text-align: center;
+    margin-top: 0;
+}
 
 #four {
     display: flex;
