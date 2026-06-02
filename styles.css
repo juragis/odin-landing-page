@@ -1,85 +1,154 @@
-
-*{
+* {
 
     font-family: Roboto, sans-serif;
     text-decoration: none;
 }
 
-.one, footer{
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#two,
+#four {
+    background-color: white;
+}
+#three{
+    background-color: #e5e7eb;
+}
+#one,
+footer {
     background-color: #1F2937;
 }
 
 
-
-.container{
+.container {
     display: flex;
     flex-direction: column;
+    width: 90vw;
+    ;
     height: 100vh;
     justify-content: center;
 }
 
-.container section{
+.container section {
     flex: 1;
     display: flex;
 }
 
-header{
+header {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
+    padding-top: 10px;
+
+
 }
 
-.links-container{
+.logo-container {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-around;
+
+}
+
+.links-container {
     width: 55%;
     display: flex;
     justify-content: space-between;
+    flex: 2 1 0;
+    justify-content: space-around;
+
 }
 
 
-header a, header p, .one-item-one p, .one-item-two p{
+header a,
+header p,
+.one-item-one p,
+.one-item-two p,
+footer {
 
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.one-item-one h1{
+
+
+.one-item-one h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 
 }
 
-.logo{
-    font-size: 24px;
-    color: #F9FAF8;
-    
+.one-item-one p {
+    text-align: justify;
 }
 
-.one{
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+
+}
+
+#one {
     flex-direction: column;
     justify-content: start;
 }
 
-.four{
-    display: flex;
-    flex-direction: column;
-}
-
-.one-container{
+.one-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.one-item-one, .one-item-two{
-    width: 40%;
-    height: 30%;
+.one-container button{
+    background-color: #3882F6;
+    border-radius: 12px;
+    border: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    height: 13%;
+    width: 20%;
     
 }
 
-.one-item-two{
-    background-color: grey;
+.one-item-one,
+.one-item-two {
+    width: 40%;
+    height: 65%;
+    padding: 5px;
+
 }
 
-.multiple-img-container{
+.one-item-one {
+    align-self: self-start;
+    padding: 25px;
+}
+
+.one-item-two {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-item-two {
+    background-color: #6D747D;
+}
+
+
+.multiple-img-container {
+    display: flex;
+
+}
+
+#four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
